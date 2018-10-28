@@ -257,7 +257,7 @@ function searchTags(){
       let talent = talents[Object.keys(talents)[x]];
       let talentDiv = document.getElementById(talent.name);
       if((talent.tags+" "+talent.tooltip+" "+talent.special+" "+talent.quality+" "+talent.name).indexOf(tagSearchValue)!=-1){
-        talentDiv.style.borderColor = "rgb(0,0,255)";
+        talentDiv.style.borderColor = "rgb(255,0,255)";
       }else{
         if(showOnlySearch){
           talentDiv.style.visibility = "hidden";
