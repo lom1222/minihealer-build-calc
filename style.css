@@ -36,6 +36,17 @@ button{
   width: 344px;
   vertical-align: top;
 }
+.treeLevelIndicator{
+  display: block;
+  padding: 4px;
+  margin: 3px;
+  width: 344px;
+}
+.fullTree{
+  display: inline-block;
+  padding: 0;
+  margin: 0;
+}
 #extra{
   margin-top: 25px;
 }
